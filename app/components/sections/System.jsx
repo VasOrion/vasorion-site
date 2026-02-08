@@ -8,7 +8,7 @@ export default function System({ t }) {
       <div className="container">
         <Reveal>
           <h2 className="eyebrow">{t.sectionSystemEyebrow}</h2>
-          <h3 className="headline">{t.sectionSystemTitle}</h3>
+          <h3 className="headline" data-theme="system">{t.sectionSystemTitle}</h3>
         </Reveal>
         <Reveal delay={0.08}>
           <p className="text">{t.sectionSystemP1}</p>

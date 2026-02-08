@@ -10,7 +10,7 @@ export default function Product({ t }) {
       <div className="container">
         <Reveal>
           <h2 className="eyebrow">{t.sectionProductEyebrow}</h2>
-          <h3 className="headline">{t.sectionProductTitle}</h3>
+          <h3 className="headline" data-theme="product">{t.sectionProductTitle}</h3>
           <p className="text">{t.sectionProductLead}</p>
         </Reveal>
 

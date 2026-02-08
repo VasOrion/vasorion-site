@@ -11,9 +11,8 @@ export default function Nft({ t, NFT_ITEMS }) {
       <div className="container">
         <Reveal>
           <h2 className="eyebrow">{t.sectionNftEyebrow}</h2>
-          <h3 className="headline">{t.sectionNftTitle}</h3>
+          <h3 className="headline" data-theme="nft">{t.sectionNftTitle}</h3>
           <p className="text">{t.sectionNftLead}</p>
-          <p className="text" style={{ color: "var(--muted2)" }}>{t.nftNote}</p>
         </Reveal>
 
         <motion.div
@@ -25,7 +24,9 @@ export default function Nft({ t, NFT_ITEMS }) {
         >
           {NFT_ITEMS.map((item) => (
             <motion.div key={item.id} className="nft" variants={fadeUp}>
-              <img src={item.img} alt={t.nftTitles[item.key]} />
+              <div className="nft-imgwrap">
+                <img src={item.img} alt={t.nftTitles[item.key]} />
+              </div>
               <div className="nft-body">
                 <h4 className="nft-title">{t.nftTitles[item.key]}</h4>
                 <p className="nft-mini">{t.nftLegends[item.key]}</p>

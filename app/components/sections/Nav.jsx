@@ -10,6 +10,19 @@ export default function Nav({ t, LINKS, lang, onLangChange }) {
   const [active, setActive] = useState(null);
 
   useEffect(() => {
+    const onScroll = () => {
+      if (window.scrollY > 8) {
+        document.documentElement.dataset.scrolled = "1";
+      } else {
+        delete document.documentElement.dataset.scrolled;
+      }
+    };
+    window.addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const visible = entries.filter((e) => e.isIntersecting);

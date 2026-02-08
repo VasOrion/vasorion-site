@@ -9,7 +9,7 @@ export default function Security({ t, LINKS }) {
       <div className="container">
         <Reveal>
           <h2 className="eyebrow">{t.sectionSecurityEyebrow}</h2>
-          <h3 className="headline">{t.sectionSecurityTitle}</h3>
+          <h3 className="headline" data-theme="security">{t.sectionSecurityTitle}</h3>
         </Reveal>
 
         <div className="split" style={{ marginTop: 12 }}>
