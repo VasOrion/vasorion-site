@@ -3,7 +3,11 @@ import "./globals.css";
 export const metadata = {
   title: "VASORION — system over noise",
   description: "VasOrion: экосистема мышления, решений и цифровой идентичности.",
-  icons: [{ rel: "icon", type: "image/svg+xml", url: "/favicon.svg" }],
+  icons: [
+      { rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },
+      { rel: "shortcut icon", type: "image/svg+xml", url: "/favicon.svg" },
+      { rel: "apple-touch-icon", url: "/favicon.svg" },
+    ],
 };
 
 export default function RootLayout({ children }) {
