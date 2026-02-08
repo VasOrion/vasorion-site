@@ -33,19 +33,19 @@ export default function Nft({ t, NFT_ITEMS }) {
             </motion.div>
           ))}
         </motion.div>
+        <Reveal delay={0.12}>
+          <div className="nft-cta-wrap">
+            <MotionLink
+              href="https://opensea.io/collection/vasorion-genesis"
+              target="_blank"
+              rel="noreferrer"
+              className="btn legendary"
+            >
+              {t.btnOpenSea}
+            </MotionLink>
+          </div>
+        </Reveal>
       </div>
-      <Reveal delay={0.12}>
-        <div style={{ marginTop: 24 }}>
-          <MotionLink
-            href="https://opensea.io/collection/vasorion-genesis"
-            target="_blank"
-            rel="noreferrer"
-            className="btn primary"
-          >
-            {t.btnOpenSea}
-          </MotionLink>
-        </div>
-      </Reveal>
     </section>
   );
 }

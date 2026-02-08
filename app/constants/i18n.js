@@ -92,7 +92,9 @@ export const I18N = {
     contact: "Контакты",
     channelName: "VasOrion Official",
     btnOpenSea: "Смотреть коллекцию на OpenSea",
-    badgeDeploy: "Готов к деплою",
+    badgePayments: "Оплата: CryptoCloud",
+    badgeSupport: "Поддержка: Telegram",
+    badgePrivacy: "Приватность прежде всего",
   },
 
   en: {
@@ -188,7 +190,9 @@ export const I18N = {
     contact: "Contact",
     channelName: "VasOrion Official",
     btnOpenSea: "View full collection on OpenSea",
-    badgeDeploy: "Deploy-ready",
+    badgePayments: "Payments: CryptoCloud",
+    badgeSupport: "Support: Telegram",
+    badgePrivacy: "Privacy-first",
   },
 
   zh: {
@@ -282,6 +286,8 @@ export const I18N = {
     contact: "聯絡",
     channelName: "VasOrion Official",
     btnOpenSea: "在 OpenSea 瀏覽完整收藏",
-    badgeDeploy: "可部署",
+    badgePayments: "支付：CryptoCloud",
+    badgeSupport: "支援：Telegram",
+    badgePrivacy: "隱私優先",
   },
 };

@@ -42,14 +42,15 @@ export default function Home() {
   return (
     <main className="page">
       <div className="bg-noise" />
+      <div className="bg-aura" />
       <Nav t={t} LINKS={LINKS} lang={lang} onLangChange={setLang} />
       <div id="content">
         <Hero t={t} LINKS={LINKS} />
-        <System t={t} LINKS={LINKS} />
+        <System t={t} />
         <Product t={t} />
         <Nft t={t} NFT_ITEMS={NFT_ITEMS} />
         <Security t={t} LINKS={LINKS} />
-        <Footer t={t} />
+        <Footer t={t} LINKS={LINKS} />
       </div>
     </main>
   );
