@@ -16,7 +16,8 @@
 * { box-sizing: border-box; }
 html {
   scroll-behavior: smooth;
-  background: radial-gradient(circle at 20% 10%, var(--bg2) 0%, var(--bg1) 45%, var(--bg0) 100%);
+  background-color: var(--bg0);
+  background-image: radial-gradient(circle at 20% 10%, var(--bg2) 0%, var(--bg1) 45%, var(--bg0) 100%);
   --px: 50%;
   --py: 50%;
 }
@@ -293,7 +294,8 @@ html[data-scrolled="1"] .nav {
 }
 
 .headline {
-  margin: 0 0 16px;
+  margin: 0 0 20px;
+  padding-bottom: 4px;
   font-size: clamp(1.5rem, 2.5vw, 2.2rem);
   letter-spacing: 0.06em;
   position: relative;
@@ -302,10 +304,11 @@ html[data-scrolled="1"] .nav {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: 0;
   height: 1px;
-  width: 120px;
-  opacity: 0.8;
+  width: 100px;
+  max-width: 80%;
+  opacity: 0.6;
   pointer-events: none;
 }
 .headline[data-theme="system"]::after {
@@ -417,7 +420,7 @@ html[data-scrolled="1"] .nav {
 
 .nft-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
 @media (max-width: 1100px) {
@@ -466,7 +469,7 @@ html[data-scrolled="1"] .nav {
   content: "";
   position: absolute;
   inset: 0;
-  padding: 1px;
+  padding: 2px;
   border-radius: 18px;
   background: conic-gradient(
     from var(--spin),

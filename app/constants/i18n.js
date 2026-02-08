@@ -30,11 +30,11 @@ export const I18N = {
     c3p: "ИИ предлагает варианты. Решение принимает человек.",
     fact1n: "24/7",
     fact1l: "работает всегда",
-    fact2n: "AI",
+    fact2n: "ИИ",
     fact2l: "структура и глубина",
-    fact3n: "Human",
+    fact3n: "Человек",
     fact3l: "финальный выбор",
-    sectionHowEyebrow: "HOW IT WORKS",
+    sectionHowEyebrow: "КАК ЭТО РАБОТАЕТ",
     sectionHowTitle: "Как пользоваться ботом",
     step1: "Открой бота и выбери режим/уровень формулировки.",
     step2: "Отправь задачу. Получи точную формулировку + варианты действий.",
@@ -42,9 +42,8 @@ export const I18N = {
     sectionNftEyebrow: "NFT / IDENTITY",
     sectionNftTitle: "VasOrion NFT — статус и след в экосистеме",
     sectionNftLead:
-      "Каждый персонаж — часть мира VasOrion. На сайте публикуются выпуски коллекций как витрина. Подлинные экземпляры находятся у владельцев — это знак участия и статуса.",
-    nftNote:
-      "Изображения ниже — стартовая коллекция. Публикация в блокчейнах — следующий этап.",
+      "Мы не делаем дропы.\n\nМы создаём артефакты экосистемы — ограниченно и осмысленно.\n\nКаждая работа фиксирует роль, присутствие и уровень доступа внутри VasOrion.\n\nЭто не визуальный шум и не спекуляция вниманием.\n\nСайт — витрина. Реестр и первоисточник — OpenSea.",
+    nftNote: "",
     nftTitles: {
       allknowing: "Всезнающая",
       father: "Отец — Архитектор",
@@ -94,7 +93,7 @@ export const I18N = {
     btnOpenSea: "Смотреть коллекцию на OpenSea",
     badgePayments: "Оплата: CryptoCloud",
     badgeSupport: "Поддержка: Telegram",
-    badgePrivacy: "Приватность прежде всего",
+    badgePrivacy: "Конфиденциальность — по умолчанию",
   },
 
   en: {
@@ -140,9 +139,8 @@ export const I18N = {
     sectionNftEyebrow: "NFT / IDENTITY",
     sectionNftTitle: "VasOrion NFT — status & trace in the ecosystem",
     sectionNftLead:
-      "Each character is part of the VasOrion world. The website publishes drops as a showcase. Authentic originals belong to holders — a mark of participation and status.",
-    nftNote:
-      "Images below are the starter collection. On-chain publication is the next stage.",
+      "We don’t do drops.\n\nWe create ecosystem artifacts — limited and intentional.\n\nEach piece fixes a role, presence, and level of access within VasOrion.\n\nThis is not visual noise or attention speculation.\n\nThe site is a showcase. The registry and source of truth — OpenSea.",
+    nftNote: "",
     nftTitles: {
       allknowing: "The All-Knowing",
       father: "The Father — Architect",
@@ -192,7 +190,7 @@ export const I18N = {
     btnOpenSea: "View full collection on OpenSea",
     badgePayments: "Payments: CryptoCloud",
     badgeSupport: "Support: Telegram",
-    badgePrivacy: "Privacy-first",
+    badgePrivacy: "Privacy by default",
   },
 
   zh: {
@@ -238,8 +236,8 @@ export const I18N = {
     sectionNftEyebrow: "NFT / IDENTITY",
     sectionNftTitle: "VasOrion NFT——地位與參與的印記",
     sectionNftLead:
-      "每位角色皆屬於 VasOrion 世界。網站展示每次發行；真正的原始藏品由持有人擁有，象徵參與與地位。",
-    nftNote: "以下為起始收藏；上鏈發佈是下一階段。",
+      "我們不做空投。\n\n我們創造生態系藝術品——限量而有意義。\n\n每件作品固定角色、在場與 VasOrion 內的存取層級。\n\n這不是視覺噪音，也不是注意力投機。\n\n本站為展示；登記與權威來源為 OpenSea。",
+    nftNote: "",
     nftTitles: {
       allknowing: "全知者",
       father: "父親——架構師",
@@ -288,6 +286,6 @@ export const I18N = {
     btnOpenSea: "在 OpenSea 瀏覽完整收藏",
     badgePayments: "支付：CryptoCloud",
     badgeSupport: "支援：Telegram",
-    badgePrivacy: "隱私優先",
+    badgePrivacy: "默認隱私",
   },
 };

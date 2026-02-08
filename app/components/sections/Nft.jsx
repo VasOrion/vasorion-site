@@ -12,7 +12,9 @@ export default function Nft({ t, NFT_ITEMS }) {
         <Reveal>
           <h2 className="eyebrow">{t.sectionNftEyebrow}</h2>
           <h3 className="headline" data-theme="nft">{t.sectionNftTitle}</h3>
-          <p className="text">{t.sectionNftLead}</p>
+          {t.sectionNftLead.split("\n\n").filter(Boolean).map((para, i) => (
+            <p key={i} className="text">{para}</p>
+          ))}
         </Reveal>
 
         <motion.div
